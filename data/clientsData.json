@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Redshift Kitchens",
+    "email": "billing@redshiftkitchens.com",
+    "initials": "RK",
+    "last": "Aug 19"
+  },
+  {
+    "name": "Palmer & Co.",
+    "email": "ap@palmerco.com",
+    "initials": "PC",
+    "last": "Aug 24"
+  },
+  {
+    "name": "Atlas Freight",
+    "email": "accounts@atlasfreight.io",
+    "initials": "AF",
+    "last": "Aug 11"
+  },
+  {
+    "name": "Meridian Labs",
+    "email": "finance@meridianlabs.com",
+    "initials": "ML",
+    "last": "Aug 26"
+  },
+  {
+    "name": "Grove & Vale",
+    "email": "hello@grovevale.com",
+    "initials": "GV",
+    "last": "Jul 30"
+  }
+]

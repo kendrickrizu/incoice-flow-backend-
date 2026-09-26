@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1047,
+    "client": "Grove & Vale",
+    "currency": "USD ($)",
+    "dueDate": "2026-09-10",
+    "issueDate": "2026-08-29",
+    "items": [
+      {
+        "description": "Project Work",
+        "qty": 1,
+        "rate": 1111.11,
+        "amount": 1111.11
+      }
+    ],
+    "status": "draft",
+    "subTotal": 1111.11,
+    "total": 1200
+  },
+  {
+    "id": 1046,
+    "client": "Meridian Labs",
+    "currency": "USD ($)",
+    "dueDate": "2026-09-09",
+    "issueDate": "2026-08-26",
+    "items": [
+      {
+        "description": "Consulting Services",
+        "qty": 1,
+        "rate": 4444.44,
+        "amount": 4444.44
+      }
+    ],
+    "status": "sent",
+    "subTotal": 4444.44,
+    "total": 4800
+  },
+  {
+    "id": 1045,
+    "client": "Palmer & Co.",
+    "currency": "USD ($)",
+    "dueDate": "2026-09-09",
+    "issueDate": "2026-09-04",
+    "items": [
+      {
+        "description": "Brand Design",
+        "qty": 1,
+        "rate": 1990.74,
+        "amount": 1990.74
+      }
+    ],
+    "status": "sent",
+    "subTotal": 1990.74,
+    "total": 2150
+  },
+  {
+    "id": 1042,
+    "client": "Redshift Kitchens",
+    "currency": "USD ($)",
+    "dueDate": "2026-09-04",
+    "issueDate": "2026-09-02",
+    "items": [
+      {
+        "description": "Web Development",
+        "qty": 1,
+        "rate": 2962.96,
+        "amount": 2962.96
+      }
+    ],
+    "status": "paid",
+    "subTotal": 2962.96,
+    "total": 3200
+  },
+  {
+    "id": 1041,
+    "client": "Redshift Kitchens",
+    "currency": "USD ($)",
+    "dueDate": "2026-08-28",
+    "issueDate": "2026-08-14",
+    "items": [
+      {
+        "description": "Server Maintenance",
+        "qty": 1,
+        "rate": 83.33,
+        "amount": 83.33
+      }
+    ],
+    "status": "paid",
+    "subTotal": 83.33,
+    "total": 90
+  },
+  {
+    "id": 1039,
+    "client": "Atlas Freight",
+    "currency": "USD ($)",
+    "dueDate": "2026-08-25",
+    "issueDate": "2026-08-11",
+    "items": [
+      {
+        "description": "Logistics Software Update",
+        "qty": 1,
+        "rate": 1828.7,
+        "amount": 1828.7
+      }
+    ],
+    "status": "overdue",
+    "subTotal": 1828.7,
+    "total": 1975
+  },
+  {
+    "id": 2204,
+    "client": "Meridian Labs",
+    "currency": "USD ($)",
+    "dueDate": "2026-08-16",
+    "issueDate": "2026-08-02",
+    "items": [
+      {
+        "description": "API Integration",
+        "qty": 1,
+        "rate": 4444.44,
+        "amount": 4444.44
+      }
+    ],
+    "status": "paid",
+    "subTotal": 4444.44,
+    "total": 4800
+  }
+]
