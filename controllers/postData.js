@@ -6,8 +6,10 @@ export default async function postData(req, res, dataPath) {
     if (!req.body) return
 
     const invoicePath = join(dataPath, 'invoicesData.json')
+    const usersPath = join(dataPath, 'usersData.json')
     const clients = JSON.parse (await readFile( join(dataPath, 'clientsData.json'), 'utf-8') )
     const invoices = JSON.parse( await readFile( invoicePath, 'utf-8') )
+    const users = JSON.parse (await readFile( usersPath, 'utf-8') )
 
     try {
 
@@ -29,9 +31,20 @@ export default async function postData(req, res, dataPath) {
                 res.status(201).json({ success: true, message: `INV-${req.body.id} added` })
                 return
 
+            case 'users':
+                if (users.some(user => {user.workEmail === req.body.workEmail})) {
+                    res.status(201).json({ success: false, message: `User ${req.body.companyName} already exists` })
+                    return
+                }
+                users.unshift(req.body)
+                await writeFile(usersPath, JSON.stringify(users, null, 2))
+                res.status(201).json({ success: true, message: `User ${req.body.companyName} added` })
+                return
+
             default:
                 res.status(404).json({success: false, message: 'NOT ADDED'})
                 return
+                
         }
 
     } catch (error) {

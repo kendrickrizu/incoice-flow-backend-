@@ -9,7 +9,8 @@ const dataPath = join(import.meta.dirname, 'data')
 const app = express()
 
 //MIDDLEWARES
-app.use(cors( { origin: 'https://invoice-flow-eight-rho.vercel.app/', methods: ['GET', 'POST', 'PUT', 'DELETE'] } ))
+//https://invoice-flow-eight-rho.vercel.app/
+app.use(cors( { origin: 'http://localhost:5173', methods: ['GET', 'POST', 'PUT', 'DELETE'] } ))
 app.use(express.json())
 
 //ROUTES
